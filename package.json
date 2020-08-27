@@ -1,0 +1,16 @@
+{
+  "name": "terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.4",
+    "electron": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx electron ./app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
