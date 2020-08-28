@@ -8,6 +8,7 @@
     width: 100%;
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 .titlebar {
@@ -30,6 +31,7 @@
     width: 100%;
     white-space: pre;
     font-size: 16px;
+    overflow-y: scroll;
 }
 
 #caret {
@@ -72,7 +74,7 @@
     font-style: italic;
 }
 
-.op-dir {
+.cwd {
     font-style: normal;
     color: #CE4257;
 }
@@ -91,4 +93,5 @@
 .prompt-input {
     display: inline-block;
     height: 100%;
+    user-select: none;
 }
